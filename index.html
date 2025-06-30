@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt=" logo composta" class="logo">
+        <h1> Composta</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#INICIO">INICIO</a></li>
+                <li><a href="#BENEFIO">BENEFICIO</a></li>
+                <li><a href="#PRODUCTO">PRODUCTOS</a></li>
+                <li><a href="#CONTACTO">CONTACTO</a></li>
+            </ul>
+        </nav>
+     <section>
+   <div class="eslogan">
+  🌱 ¡Transforma tu basura en oro verde! ♻️
+</div>
+
+    <br>
+  </section>
+<div class="INICIO">
+    <section id="INICIO">
+        <h2>BIENVENIDO </h2>
+       <h4> <p>Esta página web está dedicada a promover una tienda de composta ecológica,
+           brindando información clara y visualmente atractiva sobre sus productos,
+            beneficios y procesos. Desde un diseño amigable con colores naturales hasta imágenes ilustrativas,
+             el sitio ofrece una experiencia intuitiva para los usuarios interesados en mejorar sus prácticas ambientales. 
+             Además, se incluye una tabla educativa sobre la composta, un catálogo interactivo con precios y nombres de productos, 
+             y un formulario de contacto para facilitar la comunicación con los clientes.</p>
+              <img src="imagen.12.JPG" alt="Imagen del Producto 1">
+        <p>Para mejorar la interacción del visitante, la página incorpora elementos dinámicos como un carrusel de imágenes,
+           un mapa de ubicación y botones de acceso rápido a redes sociales como Facebook, Instagram y WhatsApp.
+            Esto permite una navegación moderna, accesible desde distintos dispositivos, e impulsa la conexión directa con la tienda.
+           En conjunto, el sitio no solo informa, sino que también invita a actuar con conciencia ecológica de forma práctica y sencilla..</p></h4>
+        <img src="imagen.17.JPG" alt="Imagen del Producto 2">
+    </section>
+</div>
+
+
+
+
+<div class="BENEFIO">
+    <section id="BENEFIO">
+        <h2>Beneficios</h2>
+                <h2>Beneficios de la composta</h2>
+        <ul>
+                <li>Mejora la salud del suelo.</li>
+                <li>Disminuye el uso de fertilizantes químicos.</li>
+                <li>Reduce gases de efecto invernadero.</li>
+                <li>Fomenta hábitos sostenibles.</li>
+        </ul>
+    </div>
+
+
+
+
+
+<div class="TABLA">
+       <table>
+  <tr>
+    <th>Definición</th>
+    <th>Descripción</th>
+    <th>Foto</th>
+  </tr>
+  <tr>
+    <td>Composta sólida</td>
+    <td>
+      Mejorar la fertilidad del suelo.<br>
+      Es el resultado principal de la descomposición de residuos orgánicos.<br>
+      Tiene aspectos de tierra oscura y suelta.<br>
+      Aporta nutrientes como nitrógeno, fósforo y potasio, esenciales para el crecimiento de las plantas.
+    </td>
+    <td><img src="f17.jpg" alt="Composta sólida" style="width:120px; border-radius:8px;"></td>
+  </tr>
+  <tr>
+    <td>Lixiviado</td>
+    <td>
+      Estimula el crecimiento de las raíces.<br>
+      Es un líquido que se forma durante el proceso de compostaje.<br>
+      Contiene microorganismos benéficos y nutrientes.<br>
+      Puede usarse diluido como fertilizante líquido para regar plantas.
+    </td>
+    <td><img src="f22.jpg" alt="Lixiviado" style="width:120px; border-radius:8px;"></td>
+  </tr>
+  <tr>
+    <td>Humus de lombriz</td>
+    <td>
+      Regenera suelos y mejora la retención de agua.<br>
+      Es producido por lombrices al digerir materia orgánica.<br>
+      Tiene una textura muy fina y rica en microorganismos.<br>
+      Muy valorado en la agricultura ecológica.
+    </td>
+    <td><img src="f5.jpg" alt="Humus de lombriz" style="width:120px; border-radius:8px;"></td>
+  </tr>
+  <tr>
+    <td>Mejorador de suelos</td>
+    <td>
+      Evita la erosión y mejora la estructura del suelo.<br>
+      Al mezclarse con suelos áridos o compactados, la composta mejora su aireación, drenaje y capacidad de retención de humedad.
+    </td>
+    <td><img src="f3.jpg" alt="Mejorador de suelos" style="width:120px; border-radius:8px;"></td>
+  </tr>
+  <tr>
+    <td>Acolchado orgánico</td>
+    <td>
+      Conserva la humedad y reduce el crecimiento de maleza.<br>
+      Parte de la composta (hojas o restos semi-descompuestos) se puede usar como cobertura superficial en jardines o cultivos.
+    </td>
+    <td><img src="f24.jpg" alt="Acolchado orgánico" style="width:120px; border-radius:8px;"></td>
+  </tr>
+</table>
+
+    </section>
+</div>
+<div class="CATALOGO">
+ <h2>Productos en venta</h2>
+ <style>
+     
+ 
+  .carrusel-wrapper {
+    width: 240px; /* ancho del carrusel */
+    margin: 0 auto;
+    background-color: #f0fff0;
+    border-radius: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .flechas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+
+  .flechas button {
+    background-color: #2f5e2f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+
+  .flechas button:disabled {
+    background-color: #a3c4a3;
+    cursor: default;
+  }
+
+  .carrusel-container {
+    overflow-y: auto;
+    height: 480px; /* alto fijo para el scroll vertical */
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #2f5e2f transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Scrollbar para Webkit */
+  .carrusel-container::-webkit-scrollbar {
+    width: 8px;
+  }
+  .carrusel-container::-webkit-scrollbar-thumb {
+    background-color: #2f5e2f;
+    border-radius: 4px;
+  }
+
+  .producto {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+
+  .producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .producto:hover {
+    transform: scale(1.05);
+  }
+
+  .producto h4 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #2f5e2f;
+  }
+
+  .producto p {
+    font-size: 15px;
+    color: #444;
+  }
+</style>
+ 
+  </p>
+      <p><strong>🌿 Llévate 3, paga 2:</strong> En todas nuestras presentaciones de composta natural.</p>
+      <p><strong>🚚 Envío GRATIS</strong> en compras mayores a <span class="precio">$500</span>.</p>
+      <p><strong>🎁 Incluye una guía de cultivo ecológico GRATIS</strong>.</p>
+      
+    </div>
+<div class="carrusel-wrapper">
+  <div class="flechas">
+    <button id="flecha-arriba" aria-label="Desplazar arriba">▲</button>
+    <button id="flecha-abajo" aria-label="Desplazar abajo">▼</button>
+  </div>
+  <div class="carrusel-container" id="carrusel">
+    <div class="producto"><img src="imagen.1.JPG" alt="Composta Premium"><h4>Composta Premium</h4><p>$200</p></div>
+    <div class="producto"><img src="imagen.2.JPG" alt="Composta Negra"><h4>Composta Negra</h4><p>$180</p></div>
+    <div class="producto"><img src="imagen.3.JPG" alt="Humus de Lombriz"><h4>Humus de Lombriz</h4><p>$250</p></div>
+    <div class="producto"><img src="imagen.4.JPG" alt="Lixiviado Orgánico"><h4>Lixiviado Orgánico</h4><p>$150</p></div>
+    <div class="producto"><img src="imagen.5.JPG" alt="Mejorador de Suelos"><h4>Mejorador de Suelos</h4><p>$220</p></div>
+    <div class="producto"><img src="imagen.6.JPG" alt="Acolchado Natural"><h4>Acolchado Natural</h4><p>$190</p></div>
+    <div class="producto"><img src="imagen.7.JPG" alt="Fertilizante Verde"><h4>Fertilizante Verde</h4><p>$240</p></div>
+    <div class="producto"><img src="imagen.8.JPG" alt="Bioabono Líquido"><h4>Bioabono Líquido</h4><p>$210</p></div>
+    <div class="producto"><img src="imagen.9.JPG" alt="Composta con Café"><h4>Composta con Café</h4><p>$195</p></div>
+    <div class="producto"><img src="imagen.10.JPG" alt="Composta Floral"><h4>Composta Floral</h4><p>$230</p></div>
+    <div class="producto"><img src="imagen.11.JPG" alt="Mulch Orgánico"><h4>Mulch Orgánico</h4><p>$185</p></div>
+    <div class="producto"><img src="imagen.12.JPG" alt="Suelo Vivo"><h4>Suelo Vivo</h4><p>$270</p></div>
+    <div class="producto"><img src="imagen.13.JPG" alt="Composta de Hojas"><h4>Composta de Hojas</h4><p>$175</p></div>
+    <div class="producto"><img src="imagen.14.JPG" alt="Mix de Nutrientes"><h4>Mix de Nutrientes</h4><p>$290</p></div>
+    <div class="producto"><img src="imagen.15.JPG" alt="Biochar"><h4>Biochar</h4><p>$300</p></div>
+    <div class="producto"><img src="imagen.16.JPG" alt="Fertilizante Compostado"><h4>Fertilizante Compostado</h4><p>$260</p></div>
+    <div class="producto"><img src="imagen.17.JPG" alt="Sustrato para Macetas"><h4>Sustrato para Macetas</h4><p>$215</p></div>
+    <div class="producto"><img src="imagen.18.JPG" alt="Tierra Orgánica"><h4>Tierra Orgánica</h4><p>$180</p></div>
+    <div class="producto"><img src="imagen.19.JPG" alt="Residuos Fermentados"><h4>Residuos Fermentados</h4><p>$275</p></div>
+    <div class="producto"><img src="imagen.20.JPG" alt="Composta Súper Carga"><h4>Composta Súper Carga</h4><p>$350</p></div>
+  </div>
+</div>
+
+<script>
+  const carrusel = document.getElementById('carrusel');
+  const btnArriba = document.getElementById('flecha-arriba');
+  const btnAbajo = document.getElementById('flecha-abajo');
+
+  const scrollAmount = 200; // pixeles que se mueve cada clic
+
+  // Función para actualizar estado de botones
+  function actualizarBotones() {
+    btnArriba.disabled = carrusel.scrollTop === 0;
+    btnAbajo.disabled = carrusel.scrollTop + carrusel.clientHeight >= carrusel.scrollHeight;
+  }
+
+  btnArriba.addEventListener('click', () => {
+    carrusel.scrollBy({ top: -scrollAmount, behavior: 'smooth' });
+  });
+
+  btnAbajo.addEventListener('click', () => {
+    carrusel.scrollBy({ top: scrollAmount, behavior: 'smooth' });
+  });
+
+  // Actualizar estado al hacer scroll
+  carrusel.addEventListener('scroll', actualizarBotones);
+
+  // Actualizar botones al cargar la página
+  window.addEventListener('load', actualizarBotones);
+</script>
+
+  
+<style>
+  .ubicacion-section {
+    background-color: #e6f2e6;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 4px solid #4CAF50;
+  }
+
+  .ubicacion-section h2 {
+    font-size: 28px;
+    color: #2f5e2f;
+    margin-bottom: 10px;
+  }
+
+  .ubicacion-section p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+  .mapa-container {
+    max-width: 90%;
+    margin: 0 auto;
+    border: 3px solid #a3d9a5;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+</style>
+
+
+<style>
+  .ubicacion-section {
+    background-color: #e6f2e6;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 4px solid #4CAF50;
+  }
+
+  .ubicacion-section h2 {
+    font-size: 28px;
+    color: #2f5e2f;
+    margin-bottom: 10px;
+  }
+
+  .ubicacion-section p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+  .mapa-container {
+    max-width: 90%;
+    margin: 0 auto;
+    border: 3px solid #a3d9a5;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+  }
+</style>
+
+<div class="ubicacion-section">
+  <h2>🌍 ¡Ven a conocernos!</h2>
+  <p>Estamos en el corazón verde de la comunidad. Aquí producimos composta de calidad con amor a la tierra.</p>
+  
+  <div class="mapa-container">
+    <!-- Cambia el src del iframe por la dirección de tu ubicación -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3765.2161361878993!2d-100.0787544247886!3d19.316425281938333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDE4JzU5LjEiTiAxMDDCsDA0JzM0LjMiVw!5e0!3m2!1ses-419!2smx!4v1751227032212!5m2!1ses-419!2smx" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
+
+    
+
+
+    <div class="CONTACTO">
+    </section>
+    <section id="CONTACTO">
+        <h2>Contacto</h2>
+        <p>Dirección: San Martín Obispo.</p>
+        <p>Email: compostalastr@gmail.com</p>
+        <p>Teléfono: 7201781129</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label><br/>
+            <input type="text" id="nombre" name="nombre"><br/>
+            <label for="mensaje">Mensaje:</label><br/>
+            <textarea id="mensaje" name="mensaje"></textarea><br/>
+            <input type="submit" value="Enviar">
+        </form>    
+    </section>
+</div>
+   <footer>
+  <div class="footer-contenedor">
+    <div class="columna">
+      <h3>Kevin Lastra</h3>
+      <p>Proyectos escolares para Ecología, Donato Guerra</p>
+    </div>
+    <div class="columna">
+      <h3>Enlaces útiles</h3>
+      <a href="#">Inicio</a><br>
+      <a href="#">Beneficios</a><br>
+      <a href="#">Productos</a>
+    </div>
+
+    <div class="columna">
+      <h3>Contacto</h3>
+      <p>Email: compostalastr@gmail.com</p>
+      <p>Tel: 7201781129</p>
+    </div>
+
+   <!-- Contenedor para los íconos -->
+<div style="text-align: center; margin-top: 20px;">
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/share/19wTec8BVD/?mibextid=wwXIfr" target="_blank" aria-label="Facebook" style="margin: 0 10px;">
+    <svg width="32" height="32" fill="#3b5998" viewBox="0 0 24 24">
+      <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351C0 23.408.593 24 1.325 24h11.499v-9.294H9.691v-3.622h3.133V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.312h3.588l-.467 3.622h-3.121V24h6.116C23.407 24 24 23.408 24 22.676V1.325C24 .593 23.407 0 22.675 0z"/>
+    </svg>
+  </a>
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/kevin__396?igsh=MWxzem11cDlvY283cA%3D%3D&utm_source=qr " target="_blank" aria-label="Instagram" style="margin: 0 10px;">
+    <svg width="32" height="32" fill="#E1306C" viewBox="0 0 24 24">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.344 3.608 1.32.975.975 1.257 2.243 1.32 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.345 2.633-1.32 3.608-.975.975-2.243 1.257-3.608 1.32-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.345-3.608-1.32-.975-.975-1.257-2.243-1.32-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.345-2.633 1.32-3.608.975-.975 2.243-1.257 3.608-1.32C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.773.131 4.648.362 3.678 1.332 2.708 2.302 2.477 3.427 2.418 4.706.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.059 1.279.29 2.404 1.26 3.374.97.97 2.095 1.201 3.374 1.26 1.28.059 1.689.072 4.948.072s3.668-.013 4.948-.072c1.279-.059 2.404-.29 3.374-1.26.97-.97 1.201-2.095 1.26-3.374.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.059-1.279-.29-2.404-1.26-3.374-.97-.97-2.095-1.201-3.374-1.26C15.668.013 15.259 0 12 0z"/>
+      <path d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8z"/>
+      <circle cx="18.406" cy="5.595" r="1.44"/>
+    </svg>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.link/unvxo6" target="_blank" aria-label="WhatsApp" style="margin: 0 10px;">
+    <svg width="32" height="32" fill="#25D366" viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.89 11.893-11.887 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.337 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.887-9.892-5.451 0-9.887 4.436-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.748-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51-.173-.008-.372-.01-.571-.01-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+    </svg>
+  </a>
+</div>
+    </div>
+  </div>
+  <div class="footer-abajo">
+    <p>© kevin Lastra. Todos los derechos reservados 2025</p>
+    <button class="subir-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑ Subir</button>
+  </div>
+</footer>
+</body>
+</html>
